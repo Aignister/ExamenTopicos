@@ -233,6 +233,7 @@
             this.txtPropietario.Name = "txtPropietario";
             this.txtPropietario.Size = new System.Drawing.Size(153, 26);
             this.txtPropietario.TabIndex = 8;
+            this.txtPropietario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPropietario_KeyPress);
             // 
             // txtRaza
             // 
@@ -240,6 +241,7 @@
             this.txtRaza.Name = "txtRaza";
             this.txtRaza.Size = new System.Drawing.Size(175, 26);
             this.txtRaza.TabIndex = 7;
+            this.txtRaza.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtRaza_KeyPress);
             // 
             // txtEspecie
             // 
@@ -247,6 +249,7 @@
             this.txtEspecie.Name = "txtEspecie";
             this.txtEspecie.Size = new System.Drawing.Size(175, 26);
             this.txtEspecie.TabIndex = 6;
+            this.txtEspecie.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtEspecie_KeyPress);
             // 
             // txtNombre
             // 
@@ -254,6 +257,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(175, 26);
             this.txtNombre.TabIndex = 5;
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // label5
             // 
